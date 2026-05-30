@@ -52,6 +52,7 @@ body {
 .card__buttons {
   display: flex;
   gap: 10px;
+  margin-top: auto;
 }
 
 .button {
@@ -90,5 +91,8 @@ body {
 
   .card__content {
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+
   }
 }
